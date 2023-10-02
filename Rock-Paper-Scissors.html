@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="css/Rock-Paper-Scissors.css">
+</head>
+<body>
+    <div class="main-body">
+        <p class="title">
+            Rock Paper Scissors.
+        </p>
+        <button class="move-button"><img src="images/rock-emoji.png" class="move-icon js-rock-button"></button>
+    
+        <button class="move-button js-paper-button"><img src="images/paper-emoji.png" class="move-icon"></button>
+        
+        <button class="move-button js-scissors-button"><img src="images/scissors-emoji.png" class="move-icon"></button> 
+    
+        <p class="js-result result"></p>
+        <p class="js-moves"></p>
+        <p class="js-score score"></p>
+    
+        <button class="reset-button js-reset-button">Reset score</button>
+        
+        <button class="auto-play-button js-auto-play">Auto Play</button>
+        <p class="js-sure-button"></p>
+    </div>
+    <div class="rules">
+        <h3>Instructions</h3>
+        1.Clicking works but you can also use keyboard for playing too('R' for Rock,'P' for paper,'S' for scissors).<br><br>
+        2.Auto Play is also available('A').<br><br>
+        3.Score can be reset by clicking and also by pressing 'Backspace',then 'Y' for yes and 'N' for no.
+    </div>
+
+    <script src="scripts/Rock-Paper-Scissors.js"></script>
+</body>
+</html>
